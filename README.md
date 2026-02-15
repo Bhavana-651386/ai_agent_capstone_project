@@ -46,8 +46,8 @@ __Architecture__
  │ Trend Tool   │      │ Anomaly Tool  │      │ Simulation Tool│
  └──────────────┘      └───────────────┘      └────────────────┘
                                │
-                ┌──────────────▼────────────┐
-                │        Data Layer         │
-                │  Synthetic CSV + Pandas   │
-                └───────────────────────────┘
+                 ┌───────────────────────────┐
+                 │        Data Layer         │
+                 │ Pandas + Dataframe        │
+                 └──────────────┬────────────┘
                             
